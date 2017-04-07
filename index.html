@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="./dist/css/style.css"/>
+  </head>
+  <body>
+    <div id="app">
+    	<p>
+    		less需要在js文件里加载
+    	</p>
+    	<img src="./src/images/logo.png"/>
+    	<div class="loading"></div>
+    	<p>
+    		目前未解决问题：html文件里的图片路径不会自动替换，因此在上线时需要手动全局替换一下。
+    		并且hmtl文件里引用的图片不会被打包，因此需要手动把图片copy一份过去image目录
+    	</p>
+    </div>
+    <script src="./dist/common.js"></script>
+  </body>
+</html>
